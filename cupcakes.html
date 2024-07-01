@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sugar Plum Bakery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html" style="color: #dc076b">Bakery</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="bread.html">Bread</a></li>
+            <li class="nav-item"><a class="nav-link" href="cupcakes.html">Cupcakes</a></li>
+            <li class="nav-item"><a class="nav-link" href="smoothies.html">Smoothies</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://wa.me/message/RWTHIVRNE5LYA1">Customer Service</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h2 id="pagename"style="color: #ffffff">Cupcake Flavors</h2>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="lemon.jpg" class="card-img-top" alt="Lemon">
+                <div class="card-body">
+                    <h5 class="card-title" style="background-color: #fad228">Lemon</h5>
+                    <p class="card-text">Light and fluffy lemon cupcakes with a refreshing citrus flavor, topped with nice lemon frosting.</p>
+                    <h5 class="card-text">Price: NGN1500 per Cupcake</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="redvelvet.jpg" class="card-img-top" alt="Red Velvet">
+                <div class="card-body">
+                    <h5 class="card-title" style="background-color: #e0032c">Red Velvet</h5>
+                    <p class="card-text">Soft and moist red velvet cupcakes topped with rich and
+                        creamy buttercream frosting and a perfect balance of sweetness. </p>
+                    <h5>Price: NGN1500 per Cupcake</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="vanilla.jpg" class="card-img-top" alt="Vanilla">
+                <div class="card-body">
+                    <h5 class="card-title" style="background-color: #f8cb7a">Vanilla</h5>
+                    <p class="card-text">Soft and buttery vanilla cupcakes topped with creamy with luscious, smooth vanilla frosting.</p>
+                    <h5>Price: NGN1500 per Cupcake</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="order" class="mt-5">
+        <h2 id="placeorder" style="color: #dc076b">Place Your Order</h2>
+        <form id="orderFormCupcakes">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="item">Item</label>
+                <select class="form-control" id="item" required>
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Vanilla">Vanilla</option>
+                    <option value="Red Velvet">Red Velvet</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Tadd. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

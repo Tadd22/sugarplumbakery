@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sugar Plum Bakery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html" style="color: #dc076b">Bakery</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="bread.html">Bread</a></li>
+            <li class="nav-item"><a class="nav-link" href="cupcakes.html">Cupcakes</a></li>
+            <li class="nav-item"><a class="nav-link" href="smoothies.html">Smoothies</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://wa.me/message/RWTHIVRNE5LYA1">Customer Service</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h2 id="pagename" style="color: #ffffff">Smoothie Flavors</h2>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="strawberrybanana.jpg" class="card-img-top" alt="Strawberry Banana">
+                <div class="card-body">
+                    <h5 class="card-title" style="background-color: #f50048">Strawberry Banana (Medium)</h5>
+                    <p class="card-text">A delightful mix of juicy strawberries and smooth bananas, packed with antioxidants.
+                        Delicious, sweet and creamy smoothie that's great for any time of the day.</p>
+                    <h5 class="card-text">Price: NGN2500 per Cup</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="mangopineapple.jpg" class="card-img-top" alt="Mango Pineapple">
+                <div class="card-body">
+                    <h5 class="card-title" style="background-color: #f5c347">Mango Pineapple (Medium)</h5>
+                    <p class="card-text">A vibrant combination of juicy mangoes and sweet pineapples, full of vitamin C.
+                        This smoothie offers a refreshing tropical flavor that's delightfully sweet and refreshing.</p>
+                    <h5>Price: NGN2500 per Cup</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="bananaAlmond.jpg" class="card-img-top" alt="Banana Almond Butter">
+                <div class="card-body">
+                    <h5 class="card-title" style="background-color: #f3d38c">Banana Almond Butter (Medium)</h5>
+                    <p class="card-text">A creamy blend of ripe bananas and smooth almond butter, rich in protein and healthy fats.
+                        Enjoy this nutritious smoothie that offers a delightful balance of sweetness and rich, buttery flavor.</p>
+                    <h5>Price: NGN2700 per Cup</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="order" class="mt-5">
+        <h2 id="placeorder" style="color: #dc076b">Place Your Order</h2>
+        <form id="orderFormSmoothies">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="item">Item</label>
+                <select class="form-control" id="item" required>
+                    <option value="Strawberry">Strawberry Banana</option>
+                    <option value="Mango">Mango Pineapple</option>
+                    <option value="Banana">Banana Almond Butter</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Tadd. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>

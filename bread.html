@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugar Plum Bakery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html" style="color: #dc076b">Bakery</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="bread.html">Bread</a></li>
+            <li class="nav-item"><a class="nav-link" href="cupcakes.html">Cupcakes</a></li>
+            <li class="nav-item"><a class="nav-link" href="smoothies.html">Smoothies</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://wa.me/message/RWTHIVRNE5LYA1">Customer Service</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h2 id="pagename" style="color: #ffffff">Bread Flavors</h2>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="wheat.jpg" class="card-img-top" alt="Whole Wheat">
+                <div class="card-body">
+                    <h5 class="card-title" style="background-color: #d3b173"> Whole Wheat</h5>
+                    <p class="card-text">Healthy whole wheat bread, perfect for breakfast.
+                        Nutritious with a hearty flavor to enhance diet with whole grains.</p>
+                    <h5 class="card-text">Price: NGN3400 per Loaf</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="chocolate.jpg" class="card-img-top" alt="Chocolate">
+                <div class="card-body">
+                    <h5 class="card-title" style="background-color: #d3b173">Chocolate</h5>
+                    <p class="card-text">Rich cocoa flavor with the soft texture of fresh bread. Perfect for a sweet breakfast or an indulgent snack.</p>
+                    <h5>Price: NGN3600 per Loaf</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="coconut.jpg" class="card-img-top" alt="Coconut">
+                <div class="card-body">
+                    <h5 class="card-title" style="background-color: #d3b173">Coconut</h5>
+                    <p class="card-text">A delightful blend of tropical coconut flavor and soft. Enjoy it fresh for a delightful taste experience.</p>
+                    <h5>Price: NGN3800 per Loaf</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="order" class="mt-5">
+        <h2 id="placeorder" style="color: #dc076b">Place Your Order</h2>
+        <form id="orderFormBread">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="item">Item</label>
+                <select class="form-control" id="item" required>
+                    <option value="Whole Wheat">Whole Wheat</option>
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Coconut">Coconut</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+</div>
+
+
+
+<footer>
+    <p>&copy; 2024 Tadd. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
